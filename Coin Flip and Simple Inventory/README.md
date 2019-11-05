@@ -1,5 +1,5 @@
 # Coin Flip and Simple Inventory
-This was a homework assignment for my web application development course.
+This was a homework assignment for my web application development course. Completed October 15, 2019.
 
 # Coin Flip Instructions
 1. Start game with 0 heads and tails and 0 right and wrong
@@ -13,5 +13,5 @@ This was a homework assignment for my web application development course.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNjkxODQxXX0=
+eyJoaXN0b3J5IjpbLTg4NDQyNTIsLTkwNjkxODQxXX0=
 -->
