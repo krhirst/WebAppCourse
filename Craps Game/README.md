@@ -1,5 +1,5 @@
 # Craps Game
-This was a homework assignment for my web application development course.
+This was a homework assignment for my web application development course. Completed October 30, 2019.
 
 ## Instructions
 1. Set initial purse to $1000
