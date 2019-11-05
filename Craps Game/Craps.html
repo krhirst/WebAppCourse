@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Craps Game</title>
+    <script src="Craps.js"></script>
+    <link rel="stylesheet" type="text/css" href="Craps.css">
+</head>
+<body class="initial">
+<header>Craps by Kristen Hirst</header>
+<button class="initialButtons" id="startButton" onclick="initialize()" >Start the Game</button>
+<div class="area" id="purseArea"></div>
+<div class="area" id="betArea" style="display: inline"></div>
+<button class="gameButtons" id="betButton" onclick="openModal('betModal')">Place bet</button>
+<div class="modal" id="betModal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('betModal')">&times;</span>
+        <input type="number" id="betInput" placeholder="Enter your bet">
+        <button id="enterButton" onclick="enterBet('betModal')">Enter</button>
+    </div>
+</div>
+<div class="modal" id="resultModal">
+    <div class="modal-content" id="resultModalContent">
+        <span class="close" onclick="closeModal('resultModal')">&times;</span>
+    </div>
+</div>
+<div class="area" id="pointToMake"></div>
+<button class="gameButtons" id="rollButton" onclick="rollDice()">Roll Dice</button>
+<div id="diceRoll">
+    <div class="area" id="rollText" hidden>Roll:</div>
+</div>
+</body>
+</html>
