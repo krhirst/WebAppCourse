@@ -1,12 +1,82 @@
+:root {
+    --gray-light: #F3F3F3;
+    --blue: #00467F;
+    --green: #47AA42;
+    --green-light: #8DC63F;
+    --green-dark: #359631;
+    --green-darker: #0B6E27;
+    --purple: #6D276A;
+    --yellow: #fdb825;
+    --maroon: #820024;
+    --dark-text: #202020;
+    --light-text: #FFFFFF;
+}
+
 body {
     margin-top: 70px;
 }
 
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.bg-gray {
+    background-color: var(--gray-light);
+}
+
 .navbar-default {
-    background-color: #05386B;
-    color: black;
+    background-color: var(--blue);
+    color: var(--dark-text);
 }
 
 .navbar-default a {
-    color: white;
+    color: var(--light-text);
+}
+
+.active {
+    font-weight: bold;
+    background-color: var(--green);
+}
+
+.nav-item:hover {
+    background-color: var(--green-dark);
+}
+
+.jumbotron {
+    background-color: var(--blue);
+    color: var(--light-text);
+}
+
+#myCarousel img {
+    height: 300px;
+    margin: auto;
+}
+
+#about {
+    margin-top: 5%;
+}
+
+#missionCard {
+    border-color: var(--green);
+    background-color: var(--green);
+    color: var(--light-text);
+}
+
+#purposeCard {
+    border-color: var(--blue);
+    background-color: var(--blue);
+    color: var(--light-text);
+}
+
+.card img {
+    height: 150px;
+    width: 150px;
+}
+
+#about .card-deck {
+    margin: 5% 0;
 }
