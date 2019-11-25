@@ -60,6 +60,15 @@ body {
     margin-top: 5%;
 }
 
+.card img {
+    height: 150px;
+    width: 150px;
+}
+
+#about .card-deck {
+    margin: 5% 0;
+}
+
 #missionCard {
     border-color: var(--green);
     background-color: var(--green);
@@ -72,11 +81,7 @@ body {
     color: var(--light-text);
 }
 
-.card img {
-    height: 150px;
-    width: 150px;
+#presidentCard, #advisorCard, #vpCard, #treasurerCard, #secretaryCard {
+    background-color: var(--gray-light);
 }
 
-#about .card-deck {
-    margin: 5% 0;
-}
