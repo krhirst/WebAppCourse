@@ -1,0 +1,24 @@
+div {
+    margin: .5em 0;
+}
+
+#calculations {
+    background-color: lightgray;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    padding: .5em;
+}
+
+#counter {
+    background-color: gold;
+    border: black .05em dashed;
+    font-weight: bolder;
+    font-size: 5em;
+    padding: .1em;
+}
+
+footer {
+    margin-bottom: 0;
+    height: 2em;
+}
